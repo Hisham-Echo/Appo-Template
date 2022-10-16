@@ -1,1 +1,4 @@
-"# Appo-Template"  git init git add README.md git commit -m "first commit" git branch -M main git remote add origin https://github.com/Hisham-Echo/Appo-Template.git git push -u origin main
+"# Appo-Template"  https://github.com/Hisham-Echo/Appo-Template.git 
+
+Link:
+https://hisham-echo.github.io/Appo-Template/
