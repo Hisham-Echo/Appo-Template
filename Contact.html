@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact</title>
+        <!-- Page Title Logo Icon -->
+        <link rel="icon" href="IMAGES/logo.webp" />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Font Awesome Library -->
+        <link rel="stylesheet" href="CSS/all.min.css" />
+        <!-- Normalizing CSS Style Sheet -->
+        <link rel="stylesheet" href="CSS/normalize.css" />
+        <!-- Main Style Sheet -->
+        <link rel="stylesheet" href="CSS/appo.css" />
+    </head>
+    <body>
+        <!-- Start Header -->
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="#">appo<sup>&reg;</sup></a>
+                </div>
+                <nav class="links">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a
+                            ><i class="fas fa-chevron-down"></i>
+                        </li>
+                        <li><a href="#">Features</a></li>
+                        <li>
+                            <a
+                                href="PDFs/AlgorithmsNotesForProfessionals.pdf"
+                                download
+                                >Pricing</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+                <div class="btns">
+                    <button class="btn">Get The App</button>
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+        <!-- Start Contact -->
+        <section class="Contact">
+            <div class="container">
+                <h3>Get In Touch</h3>
+                <p>
+                    Subscribe to our newsletter and get notification for
+                    upcoming cool sutff.
+                </p>
+                <form action="gmail-service.php" method="POST">
+                    <div class="input name">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" />
+                    </div>
+                    <div class="input email">
+                        <label for="email">E-mail: </label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+                    <div class="input text">
+                        <label for="message">Message: </label>
+                        <input type="textarea" name="message" id="message" />
+                    </div>
+
+                    <button class="btn">COUNT ME IN</button>
+                </form>
+            </div>
+        </section>
+        <!-- End Contact -->
+    </body>
+</html>
