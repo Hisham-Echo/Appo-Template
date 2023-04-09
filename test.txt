@@ -1,1 +1,2 @@
 hi from terminal testing git
+test 2
